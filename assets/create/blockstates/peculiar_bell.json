@@ -1,0 +1,433 @@
+{
+  "multipart": [
+    {
+      "when": { "attachment": "ceiling", "facing": "north" },
+      "apply": {
+        "model": "create:block/peculiar_bell",
+        "y": 0
+      }
+    },
+    {
+      "when": { "attachment": "ceiling", "facing": "east" },
+      "apply": {
+        "model": "create:block/peculiar_bell",
+        "y": 90
+      }
+    },
+    {
+      "when": { "attachment": "ceiling", "facing": "south" },
+      "apply": {
+        "model": "create:block/peculiar_bell",
+        "y": 180
+      }
+    },
+    {
+      "when": { "attachment": "ceiling", "facing": "west" },
+      "apply": {
+        "model": "create:block/peculiar_bell",
+        "y": 270
+      }
+    },
+    {
+      "when": { "attachment": "single_wall", "facing": "north" },
+      "apply": {
+        "model": "create:block/peculiar_bell",
+        "y": 90
+      }
+    },
+    {
+      "when": { "attachment": "single_wall", "facing": "east" },
+      "apply": {
+        "model": "create:block/peculiar_bell",
+        "y": 180
+      }
+    },
+    {
+      "when": { "attachment": "single_wall", "facing": "south" },
+      "apply": {
+        "model": "create:block/peculiar_bell",
+        "y": 270
+      }
+    },
+    {
+      "when": { "attachment": "single_wall", "facing": "west" },
+      "apply": {
+        "model": "create:block/peculiar_bell",
+        "y": 0
+      }
+    },
+
+    {
+      "when": { "attachment": "double_wall", "facing": "north" },
+      "apply": {
+        "model": "create:block/peculiar_bell",
+        "y": 90
+      }
+    },
+    {
+      "when": { "attachment": "double_wall", "facing": "east" },
+      "apply": {
+        "model": "create:block/peculiar_bell",
+        "y": 180
+      }
+    },
+    {
+      "when": { "attachment": "double_wall", "facing": "south" },
+      "apply": {
+        "model": "create:block/peculiar_bell",
+        "y": 270
+      }
+    },
+    {
+      "when": { "attachment": "double_wall", "facing": "west" },
+      "apply": {
+        "model": "create:block/peculiar_bell",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "attachment": "ceiling",
+        "facing": "east",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_ceiling",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attachment": "ceiling",
+        "facing": "east",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_ceiling",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attachment": "ceiling",
+        "facing": "north",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_ceiling"
+      }
+    },
+    {
+      "when": {
+        "attachment": "ceiling",
+        "facing": "north",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_ceiling"
+      }
+    },
+    {
+      "when": {
+        "attachment": "ceiling",
+        "facing": "south",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_ceiling",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attachment": "ceiling",
+        "facing": "south",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_ceiling",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attachment": "ceiling",
+        "facing": "west",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_ceiling",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attachment": "ceiling",
+        "facing": "west",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_ceiling",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attachment": "double_wall",
+        "facing": "east",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_double_wall",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attachment": "double_wall",
+        "facing": "east",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_double_wall",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attachment": "double_wall",
+        "facing": "north",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_double_wall"
+      }
+    },
+    {
+      "when": {
+        "attachment": "double_wall",
+        "facing": "north",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_double_wall"
+      }
+    },
+    {
+      "when": {
+        "attachment": "double_wall",
+        "facing": "south",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_double_wall",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attachment": "double_wall",
+        "facing": "south",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_double_wall",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attachment": "double_wall",
+        "facing": "west",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_double_wall",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attachment": "double_wall",
+        "facing": "west",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_double_wall",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attachment": "floor",
+        "facing": "east",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_floor",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attachment": "floor",
+        "facing": "east",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_floor",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attachment": "floor",
+        "facing": "north",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_floor"
+      }
+    },
+    {
+      "when": {
+        "attachment": "floor",
+        "facing": "north",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_floor"
+      }
+    },
+    {
+      "when": {
+        "attachment": "floor",
+        "facing": "south",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_floor",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attachment": "floor",
+        "facing": "south",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_floor",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attachment": "floor",
+        "facing": "west",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_floor",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attachment": "floor",
+        "facing": "west",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_floor",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attachment": "single_wall",
+        "facing": "east",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_single_wall",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attachment": "single_wall",
+        "facing": "east",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_single_wall",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attachment": "single_wall",
+        "facing": "north",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_single_wall"
+      }
+    },
+    {
+      "when": {
+        "attachment": "single_wall",
+        "facing": "north",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_single_wall"
+      }
+    },
+    {
+      "when": {
+        "attachment": "single_wall",
+        "facing": "south",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_single_wall",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attachment": "single_wall",
+        "facing": "south",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_single_wall",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attachment": "single_wall",
+        "facing": "west",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_single_wall",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attachment": "single_wall",
+        "facing": "west",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "create:block/peculiar_bell_single_wall",
+        "y": 270
+      }
+    }
+  ]
+}
