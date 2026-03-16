@@ -1,8 +1,0 @@
-# Made in Blockbench 4.12.6 (Copyright (c) 2019 simibubi)
-newmtl m_a6c1e0cf-5d8b-6426-20f1-63637c436374
-map_Kd #axis
-newmtl m_e06ac760-b69f-b03b-eeed-9ec75d056040
-map_Kd #axis_top
-newmtl m_25d83053-dcb8-2aa3-32e4-b853fa4e63b4
-map_Kd #wheel
-newmtl none
