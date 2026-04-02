@@ -1,0 +1,21 @@
+{
+    "parent": "block/block",
+    "loader": "neoforge:composite",
+    "children": {
+        "wheel0": {
+            "parent": "create:block/track/bogey/bogey_wheel",
+            "transform": {
+                "translation": [0.5, -0.25, -0.5],
+                "origin": "center"
+            }
+        },
+        "wheel1": {
+            "parent": "create:block/track/bogey/bogey_wheel",
+            "transform": {
+                "translation": [0.5, -0.25, 1.5],
+                "origin": "center"
+            }
+
+        }
+    }
+}

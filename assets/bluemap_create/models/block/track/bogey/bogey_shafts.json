@@ -1,0 +1,22 @@
+{
+    "loader": "neoforge:composite",
+	"parent": "block/block",
+    "children": {
+        "shaft0": {
+            "parent": "create:block/shaft",
+            "transform": {
+                "rotation": [{"x": 90}],
+                "translation": [0, -0.75, -0.5],
+                "origin": "center"
+            }
+        },
+        "shaft1": {
+            "parent": "create:block/shaft",
+            "transform": {
+                "rotation": [{"x": 90}],
+                "translation": [0, -0.75, 0.5],
+                "origin": "center"
+            }
+        }
+    }
+}

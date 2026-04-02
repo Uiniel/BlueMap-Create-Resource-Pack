@@ -1,0 +1,7 @@
+{
+    "parent": "create:block/track/bogey/bogey_drive_wheel_pin",
+    "transform": {
+        "translation": [0.5, 0.25, 0.5],
+        "origin": "center"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "create:block/track/bogey/bogey_drive_piston",
+    "transform": {
+        "translation": [0.5, -1, 0.5],
+        "origin": "center"
+    }
+}

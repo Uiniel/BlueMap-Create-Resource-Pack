@@ -3,111 +3,114 @@
     {
       "when": {
         "AND": [
-          { "axis": "x" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "x" }
         ]
       },
-      "apply": { "model": "create:block/track/bogey/top", "y": 90 }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_shafts", "y": 90 }
     },
     {
       "when": {
         "AND": [
-          { "axis": "x" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "x" }
         ]
       },
-      "apply": { "model": "create:block/track/bogey/bogey_drive", "y": 90 }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_shafts_large", "y": 90 }
     },
     {
       "when": {
         "AND": [
-          { "axis": "x" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "x" }
         ]
       },
-      "apply": { "model": "create:block/track/bogey/bogey_drive_wheel", "y": 90 }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_drive", "y": 90 }
     },
     {
       "when": {
         "AND": [
-          { "axis": "x" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "x" }
         ]
       },
-      "apply": { "model": "create:block/track/bogey/bogey_drive_wheel_pin", "y": 90 }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_drive_belt", "y": 90 }
     },
     {
       "when": {
         "AND": [
-          { "axis": "x" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "x" }
         ]
       },
-      "apply": { "model": "create:block/track/bogey/bogey_drive_piston", "y": 90 }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_drive_piston", "y": 90 }
     },
     {
       "when": {
         "AND": [
-          { "axis": "x" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "x" }
         ]
       },
-      "apply": { "model": "create:block/track/bogey/bogey_drive_belt", "y": 90 }
-    },
-
-    {
-      "when": {
-        "AND": [
-          { "axis": "z" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
-        ]
-      },
-      "apply": { "model": "create:block/track/bogey/top" }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_drive_wheel", "y": 90 }
     },
     {
       "when": {
         "AND": [
-          { "axis": "z" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "x" }
         ]
       },
-      "apply": { "model": "create:block/track/bogey/bogey_drive" }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_drive_wheel_pin", "y": 90 }
     },
     {
       "when": {
         "AND": [
-          { "axis": "z" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "z" }
         ]
       },
-      "apply": { "model": "create:block/track/bogey/bogey_drive_wheel" }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_shafts" }
     },
     {
       "when": {
         "AND": [
-          { "axis": "z" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "z" }
         ]
       },
-      "apply": { "model": "create:block/track/bogey/bogey_drive_wheel_pin" }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_shafts_large" }
     },
     {
       "when": {
         "AND": [
-          { "axis": "z" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "z" }
         ]
       },
-      "apply": { "model": "create:block/track/bogey/bogey_drive_piston" }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_drive" }
     },
     {
       "when": {
         "AND": [
-          { "axis": "z" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "z" }
         ]
       },
-      "apply": { "model": "create:block/track/bogey/bogey_drive_belt" }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_drive_belt" }
+    },
+    {
+      "when": {
+        "AND": [
+          { "axis": "z" }
+        ]
+      },
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_drive_piston" }
+    },
+    {
+      "when": {
+        "AND": [
+          { "axis": "z" }
+        ]
+      },
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_drive_wheel" }
+    },
+    {
+      "when": {
+        "AND": [
+          { "axis": "z" }
+        ]
+      },
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_drive_wheel_pin" }
     }
   ]
 }

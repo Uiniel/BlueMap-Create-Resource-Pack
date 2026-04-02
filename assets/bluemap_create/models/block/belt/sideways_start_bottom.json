@@ -1,0 +1,7 @@
+{
+    "parent": "create:block/belt/start_bottom",
+    "transform": {
+        "rotation": {"z": 90},
+        "origin": "center"
+    }
+}

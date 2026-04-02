@@ -1,0 +1,7 @@
+{
+    "parent": "create:block/fluid_valve/pointer",
+    "transform": {
+        "rotation": {"y": 90},
+        "origin": "center"
+    }
+}
