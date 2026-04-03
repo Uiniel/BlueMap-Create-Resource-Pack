@@ -2,19 +2,19 @@
   "multipart": [
     {
       "when": { "facing": "north" },
-      "apply": { "model": "create:block/funnel/flap" }
+      "apply": { "model": "bluemap_create:block/funnel/flap" }
     },
     {
       "when": { "facing": "south" },
-      "apply": { "model": "create:block/funnel/flap", "y": 180 }
+      "apply": { "model": "bluemap_create:block/funnel/flap", "y": 180 }
     },
     {
       "when": { "facing": "east" },
-      "apply": { "model": "create:block/funnel/flap", "y": 90 }
+      "apply": { "model": "bluemap_create:block/funnel/flap", "y": 90 }
     },
     {
       "when": { "facing": "west" },
-      "apply": { "model": "create:block/funnel/flap", "y": 270 }
+      "apply": { "model": "bluemap_create:block/funnel/flap", "y": 270 }
     },
     {
       "when": {

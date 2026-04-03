@@ -2,67 +2,67 @@
   "multipart": [
     {
       "when": { "facing": "north", "shape": "extended" },
-      "apply": { "model": "create:block/belt_funnel/flap_ext" }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_ext" }
     },
     {
       "when": { "facing": "north", "shape": "retracted" },
-      "apply": { "model": "create:block/belt_funnel/flap" }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap" }
     },
     {
       "when": { "facing": "north", "shape": "pushing" },
-      "apply": { "model": "create:block/belt_funnel/flap_pushpull" }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull" }
     },
     {
       "when": { "facing": "north", "shape": "pulling" },
-      "apply": { "model": "create:block/belt_funnel/flap_pushpull" }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull" }
     },
     {
       "when": { "facing": "south", "shape": "extended" },
-      "apply": { "model": "create:block/belt_funnel/flap_ext", "y": 180 }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_ext", "y": 180 }
     },
     {
       "when": { "facing": "south", "shape": "retracted" },
-      "apply": { "model": "create:block/belt_funnel/flap", "y": 180 }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap", "y": 180 }
     },
     {
       "when": { "facing": "south", "shape": "pushing" },
-      "apply": { "model": "create:block/belt_funnel/flap_pushpull", "y": 180 }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull", "y": 180 }
     },
     {
       "when": { "facing": "south", "shape": "pulling" },
-      "apply": { "model": "create:block/belt_funnel/flap_pushpull", "y": 180 }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull", "y": 180 }
     },
     {
       "when": { "facing": "east", "shape": "extended" },
-      "apply": { "model": "create:block/belt_funnel/flap_ext", "y": 90 }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_ext", "y": 90 }
     },
     {
       "when": { "facing": "east", "shape": "retracted" },
-      "apply": { "model": "create:block/belt_funnel/flap", "y": 90 }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap", "y": 90 }
     },
     {
       "when": { "facing": "east", "shape": "pushing" },
-      "apply": { "model": "create:block/belt_funnel/flap_pushpull", "y": 90 }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull", "y": 90 }
     },
     {
       "when": { "facing": "east", "shape": "pulling" },
-      "apply": { "model": "create:block/belt_funnel/flap_pushpull", "y": 90 }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull", "y": 90 }
     },
     {
       "when": { "facing": "west", "shape": "extended" },
-      "apply": { "model": "create:block/belt_funnel/flap_ext", "y": 270 }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_ext", "y": 270 }
     },
     {
       "when": { "facing": "west", "shape": "retracted" },
-      "apply": { "model": "create:block/belt_funnel/flap", "y": 270 }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap", "y": 270 }
     },
     {
       "when": { "facing": "west", "shape": "pushing" },
-      "apply": { "model": "create:block/belt_funnel/flap_pushpull", "y": 270 }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull", "y": 270 }
     },
     {
       "when": { "facing": "west", "shape": "pulling" },
-      "apply": { "model": "create:block/belt_funnel/flap_pushpull", "y": 270 }
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull", "y": 270 }
     },
     {
       "when": { "facing": "east", "powered": "false", "shape": "extended" },
