@@ -1,0 +1,199 @@
+{
+  "multipart": [
+    {
+      "when": { "shape": "cross" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap" }
+    },
+    {
+      "when": { "shape": "cross" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 90 }
+    },
+    {
+      "when": { "shape": "cross" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 180 }
+    },
+    {
+      "when": { "shape": "cross" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 270 }
+    },
+    {
+      "when": { "axis": "x", "shape": "straight" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 90 }
+    },
+    {
+      "when": { "axis": "x", "shape": "straight" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 270 }
+    },
+    {
+      "when": { "axis": "x", "shape": "t_left" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 90}
+    },
+    {
+      "when": { "axis": "x", "shape": "t_left" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 270}
+    },
+    {
+      "when": { "axis": "x", "shape": "t_left" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 180 }
+    },
+    {
+      "when": { "axis": "x", "shape": "t_right" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 90}
+    },
+    {
+      "when": { "axis": "x", "shape": "t_right" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 270}
+    },
+    {
+      "when": { "axis": "x", "shape": "t_right" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap"}
+    },
+
+    {
+      "when": { "axis": "z", "shape": "straight" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap" }
+    },
+    {
+      "when": { "axis": "z", "shape": "straight" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 180 }
+    },
+    {
+      "when": { "axis": "z", "shape": "t_left" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap" }
+    },
+    {
+      "when": { "axis": "z", "shape": "t_left" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 270}
+    },
+    {
+      "when": { "axis": "z", "shape": "t_left" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 180 }
+    },
+    {
+      "when": { "axis": "z", "shape": "t_right" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap" }
+    },
+    {
+      "when": { "axis": "z", "shape": "t_right" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 90 }
+    },
+    {
+      "when": { "axis": "z", "shape": "t_right" },
+      "apply": { "model": "bluemap_create:block/belt_tunnel/flap", "y": 180 }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "shape": "closed"
+      },
+      "apply": {
+        "model": "create:block/tunnel/brass_tunnel/straight"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "shape": "cross"
+      },
+      "apply": {
+        "model": "create:block/tunnel/brass_tunnel/cross"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "shape": "straight"
+      },
+      "apply": {
+        "model": "create:block/tunnel/brass_tunnel/straight"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "shape": "t_left"
+      },
+      "apply": {
+        "model": "create:block/tunnel/brass_tunnel/t_left"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "shape": "t_right"
+      },
+      "apply": {
+        "model": "create:block/tunnel/brass_tunnel/t_right"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "shape": "window"
+      },
+      "apply": {
+        "model": "create:block/tunnel/brass_tunnel/window"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "shape": "closed"
+      },
+      "apply": {
+        "model": "create:block/tunnel/brass_tunnel/straight",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "shape": "cross"
+      },
+      "apply": {
+        "model": "create:block/tunnel/brass_tunnel/cross",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "shape": "straight"
+      },
+      "apply": {
+        "model": "create:block/tunnel/brass_tunnel/straight",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "shape": "t_left"
+      },
+      "apply": {
+        "model": "create:block/tunnel/brass_tunnel/t_left",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "shape": "t_right"
+      },
+      "apply": {
+        "model": "create:block/tunnel/brass_tunnel/t_right",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "shape": "window"
+      },
+      "apply": {
+        "model": "create:block/tunnel/brass_tunnel/window",
+        "y": 90
+      }
+    }
+  ]
+}

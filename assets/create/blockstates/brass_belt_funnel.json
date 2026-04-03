@@ -1,0 +1,196 @@
+{
+  "multipart": [
+    {
+      "when": { "facing": "north", "shape": "extended" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_ext" }
+    },
+    {
+      "when": { "facing": "north", "shape": "retracted" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap" }
+    },
+    {
+      "when": { "facing": "north", "shape": "pushing" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull" }
+    },
+    {
+      "when": { "facing": "north", "shape": "pulling" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull" }
+    },
+    {
+      "when": { "facing": "south", "shape": "extended" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_ext", "y": 180 }
+    },
+    {
+      "when": { "facing": "south", "shape": "retracted" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap", "y": 180 }
+    },
+    {
+      "when": { "facing": "south", "shape": "pushing" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull", "y": 180 }
+    },
+    {
+      "when": { "facing": "south", "shape": "pulling" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull", "y": 180 }
+    },
+    {
+      "when": { "facing": "east", "shape": "extended" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_ext", "y": 90 }
+    },
+    {
+      "when": { "facing": "east", "shape": "retracted" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap", "y": 90 }
+    },
+    {
+      "when": { "facing": "east", "shape": "pushing" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull", "y": 90 }
+    },
+    {
+      "when": { "facing": "east", "shape": "pulling" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull", "y": 90 }
+    },
+    {
+      "when": { "facing": "west", "shape": "extended" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_ext", "y": 270 }
+    },
+    {
+      "when": { "facing": "west", "shape": "retracted" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap", "y": 270 }
+    },
+    {
+      "when": { "facing": "west", "shape": "pushing" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull", "y": 270 }
+    },
+    {
+      "when": { "facing": "west", "shape": "pulling" },
+      "apply": { "model": "bluemap_create:block/belt_funnel/flap_pushpull", "y": 270 }
+    },
+    {
+      "when": { "facing": "east", "powered": "false", "shape": "extended" },
+      "apply": { "model": "create:block/brass_belt_funnel_extended_unpowered", "y": 90 }
+    },
+    {
+      "when": { "facing": "east", "powered": "false", "shape": "pulling" },
+      "apply": { "model": "create:block/brass_belt_funnel_pulling_unpowered", "y": 90 }
+    },
+    {
+      "when": { "facing": "east", "powered": "false", "shape": "pushing" },
+      "apply": { "model": "create:block/brass_belt_funnel_pushing_unpowered", "y": 90 }
+    },
+    {
+      "when": { "facing": "east", "powered": "false", "shape": "retracted" },
+      "apply": { "model": "create:block/brass_belt_funnel_retracted_unpowered", "y": 90 }
+    },
+    {
+      "when": { "facing": "east", "powered": "true", "shape": "extended" },
+      "apply": { "model": "create:block/brass_belt_funnel_extended_powered", "y": 90 }
+    },
+    {
+      "when": { "facing": "east", "powered": "true", "shape": "pulling" },
+      "apply": { "model": "create:block/brass_belt_funnel_pulling_powered", "y": 90 }
+    },
+    {
+      "when": { "facing": "east", "powered": "true", "shape": "pushing" },
+      "apply": { "model": "create:block/brass_belt_funnel_pushing_powered", "y": 90 }
+    },
+    {
+      "when": { "facing": "east", "powered": "true", "shape": "retracted" },
+      "apply": { "model": "create:block/brass_belt_funnel_retracted_powered", "y": 90 }
+    },
+    {
+      "when": { "facing": "north", "powered": "false", "shape": "extended" },
+      "apply": { "model": "create:block/brass_belt_funnel_extended_unpowered" }
+    },
+    {
+      "when": { "facing": "north", "powered": "false", "shape": "pulling" },
+      "apply": { "model": "create:block/brass_belt_funnel_pulling_unpowered" }
+    },
+    {
+      "when": { "facing": "north", "powered": "false", "shape": "pushing" },
+      "apply": { "model": "create:block/brass_belt_funnel_pushing_unpowered" }
+    },
+    {
+      "when": { "facing": "north", "powered": "false", "shape": "retracted" },
+      "apply": { "model": "create:block/brass_belt_funnel_retracted_unpowered" }
+    },
+    {
+      "when": { "facing": "north", "powered": "true", "shape": "extended" },
+      "apply": { "model": "create:block/brass_belt_funnel_extended_powered" }
+    },
+    {
+      "when": { "facing": "north", "powered": "true", "shape": "pulling" },
+      "apply": { "model": "create:block/brass_belt_funnel_pulling_powered" }
+    },
+    {
+      "when": { "facing": "north", "powered": "true", "shape": "pushing" },
+      "apply": { "model": "create:block/brass_belt_funnel_pushing_powered" }
+    },
+    {
+      "when": { "facing": "north", "powered": "true", "shape": "retracted" },
+      "apply": { "model": "create:block/brass_belt_funnel_retracted_powered" }
+    },
+    {
+      "when": { "facing": "south", "powered": "false", "shape": "extended" },
+      "apply": { "model": "create:block/brass_belt_funnel_extended_unpowered", "y": 180 }
+    },
+    {
+      "when": { "facing": "south", "powered": "false", "shape": "pulling" },
+      "apply": { "model": "create:block/brass_belt_funnel_pulling_unpowered", "y": 180 }
+    },
+    {
+      "when": { "facing": "south", "powered": "false", "shape": "pushing" },
+      "apply": { "model": "create:block/brass_belt_funnel_pushing_unpowered", "y": 180 }
+    },
+    {
+      "when": { "facing": "south", "powered": "false", "shape": "retracted" },
+      "apply": { "model": "create:block/brass_belt_funnel_retracted_unpowered", "y": 180 }
+    },
+    {
+      "when": { "facing": "south", "powered": "true", "shape": "extended" },
+      "apply": { "model": "create:block/brass_belt_funnel_extended_powered", "y": 180 }
+    },
+    {
+      "when": { "facing": "south", "powered": "true", "shape": "pulling" },
+      "apply": { "model": "create:block/brass_belt_funnel_pulling_powered", "y": 180 }
+    },
+    {
+      "when": { "facing": "south", "powered": "true", "shape": "pushing" },
+      "apply": { "model": "create:block/brass_belt_funnel_pushing_powered", "y": 180 }
+    },
+    {
+      "when": { "facing": "south", "powered": "true", "shape": "retracted" },
+      "apply": { "model": "create:block/brass_belt_funnel_retracted_powered", "y": 180 }
+    },
+    {
+      "when": { "facing": "west", "powered": "false", "shape": "extended" },
+      "apply": { "model": "create:block/brass_belt_funnel_extended_unpowered", "y": 270 }
+    },
+    {
+      "when": { "facing": "west", "powered": "false", "shape": "pulling" },
+      "apply": { "model": "create:block/brass_belt_funnel_pulling_unpowered", "y": 270 }
+    },
+    {
+      "when": { "facing": "west", "powered": "false", "shape": "pushing" },
+      "apply": { "model": "create:block/brass_belt_funnel_pushing_unpowered", "y": 270 }
+    },
+    {
+      "when": { "facing": "west", "powered": "false", "shape": "retracted" },
+      "apply": { "model": "create:block/brass_belt_funnel_retracted_unpowered", "y": 270 }
+    },
+    {
+      "when": { "facing": "west", "powered": "true", "shape": "extended" },
+      "apply": { "model": "create:block/brass_belt_funnel_extended_powered", "y": 270 }
+    },
+    {
+      "when": { "facing": "west", "powered": "true", "shape": "pulling" },
+      "apply": { "model": "create:block/brass_belt_funnel_pulling_powered", "y": 270 }
+    },
+    {
+      "when": { "facing": "west", "powered": "true", "shape": "pushing" },
+      "apply": { "model": "create:block/brass_belt_funnel_pushing_powered", "y": 270 }
+    },
+    {
+      "when": { "facing": "west", "powered": "true", "shape": "retracted" },
+      "apply": { "model": "create:block/brass_belt_funnel_retracted_powered", "y": 270 }
+    }
+  ]
+}

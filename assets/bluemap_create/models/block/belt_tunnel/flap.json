@@ -1,0 +1,34 @@
+{
+  "loader": "neoforge:composite",
+  "parent": "block/block",
+  "children": {
+    "flap0": {
+      "parent": "create:block/belt_tunnel/flap",
+      "transform": {
+        "translation": [0.0, 0, -0.0],
+        "origin": "center"
+      }
+    },
+    "flap1": {
+      "parent": "create:block/belt_tunnel/flap",
+      "transform": {
+        "translation": [-0.1875, 0, -0.0],
+        "origin": "center"
+      }
+    },
+    "flap2": {
+      "parent": "create:block/belt_tunnel/flap",
+      "transform": {
+        "translation": [-0.375, 0.0, -0.0],
+        "origin": "center"
+      }
+    },
+    "flap3": {
+      "parent": "create:block/belt_tunnel/flap",
+      "transform": {
+        "translation": [-0.5625, 0.0, -0.0],
+        "origin": "center"
+      }
+    }
+  }
+}
