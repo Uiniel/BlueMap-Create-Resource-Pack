@@ -24,7 +24,7 @@
         "waterlogged": "false"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_pull_unpowered",
+        "model": "create:block/brass_funnel_vertical_pull_unpowered",
         "x": 180,
         "y": 180
       }
@@ -37,7 +37,7 @@
         "waterlogged": "true"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_pull_unpowered",
+        "model": "create:block/brass_funnel_vertical_pull_unpowered",
         "x": 180,
         "y": 180
       }
@@ -50,7 +50,7 @@
         "waterlogged": "false"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_pull_powered",
+        "model": "create:block/brass_funnel_vertical_pull_powered",
         "x": 180,
         "y": 180
       }
@@ -63,7 +63,7 @@
         "waterlogged": "true"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_pull_powered",
+        "model": "create:block/brass_funnel_vertical_pull_powered",
         "x": 180,
         "y": 180
       }
@@ -216,7 +216,7 @@
         "waterlogged": "false"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_pull_unpowered",
+        "model": "create:block/brass_funnel_vertical_pull_unpowered",
         "y": 180
       }
     },
@@ -228,7 +228,7 @@
         "waterlogged": "true"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_pull_unpowered",
+        "model": "create:block/brass_funnel_vertical_pull_unpowered",
         "y": 180
       }
     },
@@ -240,7 +240,7 @@
         "waterlogged": "false"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_pull_powered",
+        "model": "create:block/brass_funnel_vertical_pull_powered",
         "y": 180
       }
     },
@@ -252,7 +252,7 @@
         "waterlogged": "true"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_pull_powered",
+        "model": "create:block/brass_funnel_vertical_pull_powered",
         "y": 180
       }
     },
@@ -312,7 +312,7 @@
         "waterlogged": "false"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_push_unpowered",
+        "model": "create:block/brass_funnel_vertical_push_unpowered",
         "x": 180,
         "y": 180
       }
@@ -325,7 +325,7 @@
         "waterlogged": "true"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_push_unpowered",
+        "model": "create:block/brass_funnel_vertical_push_unpowered",
         "x": 180,
         "y": 180
       }
@@ -338,7 +338,7 @@
         "waterlogged": "false"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_push_powered",
+        "model": "create:block/brass_funnel_vertical_push_powered",
         "x": 180,
         "y": 180
       }
@@ -351,7 +351,7 @@
         "waterlogged": "true"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_push_powered",
+        "model": "create:block/brass_funnel_vertical_push_powered",
         "x": 180,
         "y": 180
       }
@@ -504,7 +504,7 @@
         "waterlogged": "false"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_push_unpowered",
+        "model": "create:block/brass_funnel_vertical_push_unpowered",
         "y": 180
       }
     },
@@ -516,7 +516,7 @@
         "waterlogged": "true"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_push_unpowered",
+        "model": "create:block/brass_funnel_vertical_push_unpowered",
         "y": 180
       }
     },
@@ -528,7 +528,7 @@
         "waterlogged": "false"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_push_powered",
+        "model": "create:block/brass_funnel_vertical_push_powered",
         "y": 180
       }
     },
@@ -540,7 +540,7 @@
         "waterlogged": "true"
       },
       "apply": {
-        "model": "create:block/brass_funnel_vertical_filterless_push_powered",
+        "model": "create:block/brass_funnel_vertical_push_powered",
         "y": 180
       }
     },
