@@ -1,8 +1,0 @@
-# Made in Blockbench 4.12.6 (Copyright (c) 2019 simibubi)
-newmtl m_7d5122e7-bee4-12f4-e3ae-f3aa6531efd8
-map_Kd #piston
-newmtl m_f8a42a57-638f-29e1-517d-c58744b75d5c
-map_Kd #wheel
-newmtl m_440fa5c7-bd5a-f800-bc4e-74a6e5dd9a9a
-map_Kd #bogey
-newmtl none

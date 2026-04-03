@@ -3,71 +3,50 @@
     {
       "when": {
         "AND": [
-          { "axis": "x" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "x" }
         ]
       },
-      "apply": {
-        "model": "create:block/track/bogey/top",
-        "y": 90
-      }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_shafts", "y": 90 }
     },
     {
       "when": {
         "AND": [
-          { "axis": "x" },
-          { "waterlogged": "false" }
+          { "axis": "x" }
         ]
       },
-      "apply": {
-        "model": "create:block/track/bogey/bogey_frame",
-        "y": 90
-      }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_frame", "y": 90 }
     },
     {
       "when": {
         "AND": [
-          { "axis": "x" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "x" }
         ]
       },
-      "apply": {
-        "model": "create:block/track/bogey/bogey_wheel",
-        "y": 90
-      }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_wheel", "y": 90 }
     },
     {
       "when": {
         "AND": [
-          { "axis": "z" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "z" }
         ]
       },
-      "apply": {
-        "model": "create:block/track/bogey/top"
-      }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_shafts" }
     },
     {
       "when": {
         "AND": [
-          { "axis": "z" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "z" }
         ]
       },
-      "apply": {
-        "model": "create:block/track/bogey/bogey_frame"
-      }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_frame" }
     },
     {
       "when": {
         "AND": [
-          { "axis": "z" },
-          { "OR": [ { "waterlogged": "true" }, { "waterlogged": "false" } ] }
+          { "axis": "z" }
         ]
       },
-      "apply": {
-        "model": "create:block/track/bogey/bogey_wheel"
-      }
+      "apply": { "model": "bluemap_create:block/track/bogey/bogey_wheel" }
     }
   ]
 }

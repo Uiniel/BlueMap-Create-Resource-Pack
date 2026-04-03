@@ -143,7 +143,7 @@ for facing in directions:
             })
 
             path_parts = state[1].split("/")
-            model = "/".join(path_parts[:-1] + ["sideways_"+path_parts[-1]])
+            model = "/".join(["bluemap_create:block"] + path_parts[1:-1] + ["sideways_"+path_parts[-1]])
 
             output["multipart"].append({
                 "when": {
@@ -292,9 +292,9 @@ for facing in directions:
         model = state[1].replace("horizontal", "sideways")
         if facing == "west" or facing == "north":
             if "start" in model:
-                model = "create:block/belt_casing/sideways_end"
+                model = "bluemap_create:block/belt_casing/sideways_end"
             elif "end" in model:
-                model = "create:block/belt_casing/sideways_start"
+                model = "bluemap_create:block/belt_casing/sideways_start"
 
         output["multipart"].append({
             "when": {

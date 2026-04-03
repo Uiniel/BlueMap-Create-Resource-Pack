@@ -1,0 +1,10 @@
+{
+    "parent": "create:block/mechanical_arm/upper_claw_grip",
+    "transform": {
+        "matrix": [
+            [ 1        ,  0        ,  0        ,  0.5      ],
+            [ 0        ,  0.7071068,  0.7071068,  1.2727476],
+            [ 0        , -0.7071068,  0.7071068, -0.1281407]
+        ]
+    }
+} 

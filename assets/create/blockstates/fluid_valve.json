@@ -704,7 +704,7 @@
         ]
       },
       "apply": {
-        "model": "create:block/fluid_valve/pointer_rotated",
+        "model": "bluemap_create:block/fluid_valve/pointer_rotated",
         "x": 90
       }
     },
@@ -763,7 +763,7 @@
         ]
       },
       "apply": {
-        "model": "create:block/fluid_valve/pointer_rotated"
+        "model": "bluemap_create:block/fluid_valve/pointer_rotated"
       }
     },
     {
@@ -823,7 +823,7 @@
         ]
       },
       "apply": {
-        "model": "create:block/fluid_valve/pointer_rotated",
+        "model": "bluemap_create:block/fluid_valve/pointer_rotated",
         "x": 90,
         "y": 90
       }

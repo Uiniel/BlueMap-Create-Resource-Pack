@@ -6,11 +6,11 @@
     },
     {
       "when": { "ceiling": "false" },
-      "apply": { "model": "create:block/mechanical_arm/base_translated" }
+      "apply": { "model": "bluemap_create:block/mechanical_arm/base_transformed" }
     },
     {
       "when": { "ceiling": "false" },
-      "apply": { "model": "create:block/mechanical_arm/claw_base_translated" }
+      "apply": { "model": "bluemap_create:block/mechanical_arm/claw_base_transformed" }
     },
     {
       "when": { "ceiling": "false" },
@@ -18,19 +18,19 @@
     },
     {
       "when": { "ceiling": "false" },
-      "apply": { "model": "create:block/mechanical_arm/lower_body_translated" }
+      "apply": { "model": "bluemap_create:block/mechanical_arm/lower_body_transformed" }
     },
     {
       "when": { "ceiling": "false" },
-      "apply": { "model": "create:block/mechanical_arm/upper_body_translated" }
+      "apply": { "model": "bluemap_create:block/mechanical_arm/upper_body_transformed" }
     },
     {
       "when": { "ceiling": "false" },
-      "apply": { "model": "create:block/mechanical_arm/lower_claw_grip_translated" }
+      "apply": { "model": "bluemap_create:block/mechanical_arm/lower_claw_grip_transformed" }
     },
     {
       "when": { "ceiling": "false" },
-      "apply": { "model": "create:block/mechanical_arm/upper_claw_grip_translated" }
+      "apply": { "model": "bluemap_create:block/mechanical_arm/upper_claw_grip_transformed" }
     },
     {
       "when": { "ceiling": "false" },
@@ -43,11 +43,11 @@
     },
     {
       "when": { "ceiling": "true" },
-      "apply": { "model": "create:block/mechanical_arm/base_translated", "x": 180 }
+      "apply": { "model": "bluemap_create:block/mechanical_arm/base_transformed", "x": 180 }
     },
     {
       "when": { "ceiling": "true" },
-      "apply": { "model": "create:block/mechanical_arm/claw_base_translated", "x": 180 }
+      "apply": { "model": "bluemap_create:block/mechanical_arm/claw_base_transformed", "x": 180 }
     },
     {
       "when": { "ceiling": "true" },
@@ -55,19 +55,19 @@
     },
     {
       "when": { "ceiling": "true" },
-      "apply": { "model": "create:block/mechanical_arm/lower_body_translated", "x": 180 }
+      "apply": { "model": "bluemap_create:block/mechanical_arm/lower_body_transformed", "x": 180 }
     },
     {
       "when": { "ceiling": "true" },
-      "apply": { "model": "create:block/mechanical_arm/upper_body_translated", "x": 180 }
+      "apply": { "model": "bluemap_create:block/mechanical_arm/upper_body_transformed", "x": 180 }
     },
     {
       "when": { "ceiling": "true" },
-      "apply": { "model": "create:block/mechanical_arm/lower_claw_grip_translated", "x": 180 }
+      "apply": { "model": "bluemap_create:block/mechanical_arm/lower_claw_grip_transformed", "x": 180 }
     },
     {
       "when": { "ceiling": "true" },
-      "apply": { "model": "create:block/mechanical_arm/upper_claw_grip_translated", "x": 180 }
+      "apply": { "model": "bluemap_create:block/mechanical_arm/upper_claw_grip_transformed", "x": 180 }
     },
     {
       "when": { "ceiling": "true" },

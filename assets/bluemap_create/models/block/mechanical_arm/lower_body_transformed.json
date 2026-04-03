@@ -1,0 +1,10 @@
+{
+    "parent": "create:block/mechanical_arm/lower_body",
+    "transform": {
+        "matrix": [
+            [ 1        ,  0        ,  0        ,  0.5      ],
+            [ 0        , -0.7071068, -0.7071068,  0.875    ],
+            [ 0        ,  0.7071068, -0.7071068,  0.5      ]
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "create:block/mechanical_mixer/pole",
+    "transform": {
+        "translation": [0, -0.4375, 0],
+        "origin": "center"
+    }
+}

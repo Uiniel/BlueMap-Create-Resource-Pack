@@ -12,12 +12,12 @@
     },
     {
       "apply": {
-        "model": "create:block/mechanical_mixer/pole_translated"
+        "model": "bluemap_create:block/mechanical_mixer/pole_translated"
       }
     },
     {
       "apply": {
-        "model": "create:block/mechanical_mixer/head_translated"
+        "model": "bluemap_create:block/mechanical_mixer/head_translated"
       }
     }
   ]
